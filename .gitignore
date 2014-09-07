@@ -1,0 +1,23 @@
+
+# do not track local caches and temporary files
+Library/
+Temp/
+build/
+
+# ignore Plugins and their sources
+#Assets/Plugins
+#Assets/Extensions
+#Assets/Facebook
+#Assets/GoogleMobileAds
+
+# no solution files for C#
+#*.sln
+#*.csproj
+
+# ignore .DS_Store and alikes
+**/.DS_Store
+**/._.DS_Store
+**/._*
+
+# ignore vim swap files
+*.swp
