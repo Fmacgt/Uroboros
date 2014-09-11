@@ -39,24 +39,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   segments:
-  - {fileID: 100000, guid: d8429422c29627044b4092ae3f40a6df, type: 2}
-  - {fileID: 100000, guid: dfa0b3ceb90da1e4e85ce8b1bb2d42ae, type: 2}
-  - {fileID: 100000, guid: 66ae7e535ecde8d4590935498a749c73, type: 2}
-  - {fileID: 100000, guid: a9ed5b3e875b1714d9132ab2e9c98b93, type: 2}
-  - {fileID: 100000, guid: f4e004b8df05600438cc89a94741d2fc, type: 2}
-  - {fileID: 100000, guid: 8fa896d48a044184cab370924017a683, type: 2}
-  - {fileID: 100000, guid: b987ed26bc42f734d8185a0de2d49e7b, type: 2}
-  - {fileID: 100000, guid: 01e0f2d74f28bf64a86f3421cd0285ba, type: 2}
+  - {fileID: 100000, guid: 64e7a3804343eb049b4c9ef025ba4228, type: 2}
+  - {fileID: 100000, guid: a46ad4a1dc7a03e4cb6ff703b05495e2, type: 2}
+  - {fileID: 100000, guid: 1ea1c2380947ccc4f928f3b44cac5b58, type: 2}
+  - {fileID: 100000, guid: fc53cab69be9f9a49b7b70c6b49720e3, type: 2}
+  - {fileID: 100000, guid: 246f7fcf8bc78364686ccd7f7155fab6, type: 2}
+  - {fileID: 100000, guid: 4839c04573f5ffe46a81ec607e570994, type: 2}
+  - {fileID: 100000, guid: 96e3d33de42b03a418ffa49da6b8aea9, type: 2}
+  - {fileID: 100000, guid: e124157acd02e7b418070381f59c31e4, type: 2}
+  - {fileID: 100000, guid: d462605104b91cf4c9928bc923fe9480, type: 2}
+  - {fileID: 100000, guid: 3703a307916876040acc9ceb61596139, type: 2}
+  - {fileID: 100000, guid: b7e31f2dff3a54f4f9fe009b3610bcb3, type: 2}
+  - {fileID: 100000, guid: 811e780db3d82c24aa0e5917c9bae3cc, type: 2}
   difficulties:
   - 0
   - 2
   - 6
   - 7
   - 3
+  - 3
   - 4
-  - 6
-  - 1
-  segmentNum: 6
+  - 5
+  - 4
+  - 3
+  - 5
+  - 4
+  segmentNum: 12
   leftOutIdx: 0
   angSpeed: .5
   baseAngSpeed: .5
@@ -67,6 +75,7 @@ MonoBehaviour:
   spawner: {fileID: 0}
   freqHold: {fileID: 0}
   player: {fileID: 0}
+  initRadius: 1.79999995
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

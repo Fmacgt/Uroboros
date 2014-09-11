@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 212: {fileID: 21200000}
+  - 60: {fileID: 6000000}
+  m_Layer: 0
+  m_Name: SectionBlueNeon8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .00558900833, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!60 &6000000
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Poly:
+    m_Paths:
+    - - {x: -1.55589175, y: -.25203836}
+      - {x: -1.51589155, y: -.129108354}
+      - {x: -1.43707013, y: .00412415713}
+      - {x: -1.31265903, y: .13412416}
+      - {x: -1.15178323, y: .248534992}
+      - {x: -.977945805, y: .343248278}
+      - {x: -.814108372, y: .417961657}
+      - {x: -.660875797, y: .485604972}
+      - {x: -.524713278, y: .542069972}
+      - {x: -.375589192, y: .563248336}
+      - {x: -.229697511, y: .605605006}
+      - {x: -.0805733427, y: .677961648}
+      - {x: .0582483262, y: .764729083}
+      - {x: .191751674, y: .883821666}
+      - {x: .28323251, y: .991194129}
+      - {x: .401751637, y: 1.13735664}
+      - {x: .567340791, y: 1.27971315}
+      - {x: .758519173, y: 1.3964808}
+      - {x: .932054102, y: 1.45765924}
+      - {x: 1.13764334, y: 1.49765909}
+      - {x: 1.36000001, y: 1.4964807}
+      - {x: 1.54205418, y: 1.4844265}
+      - {x: 1.78676736, y: 1.40883744}
+      - {x: 1.96969736, y: 1.3529458}
+      - {x: 1.95764315, y: 1.64675164}
+      - {x: 1.77885306, y: 1.64469731}
+      - {x: 1.52824807, y: 1.61351907}
+      - {x: 1.39558911, y: 1.59234071}
+      - {x: 1.13676751, y: 1.54234076}
+      - {x: .8529616, y: 1.47587574}
+      - {x: .720302403, y: 1.43351936}
+      - {x: .563534975, y: 1.3723408}
+      - {x: .370000005, y: 1.30675161}
+      - {x: .247643292, y: 1.25557327}
+      - {x: .0808758438, y: 1.17880595}
+      - {x: -.0588216707, y: 1.11234081}
+      - {x: -.179124162, y: 1.05557334}
+      - {x: -.341480821, y: .956449151}
+      - {x: -.52734077, y: .852643371}
+      - {x: -.739092529, y: .696178317}
+      - {x: -.877340794, y: .595875859}
+      - {x: -1.01646483, y: .476751655}
+      - {x: -1.10087585, y: .406751633}
+      - {x: -1.25087583, y: .272340834}
+      - {x: -1.36528659, y: .164697513}
+      - {x: -1.53410816, y: -.0253024921}
+      - {x: -1.67734087, y: -.214124173}
+      - {x: -1.92999995, y: -.575573266}
+      - {x: -1.65353489, y: -.753519177}
+      - {x: -1.63265908, y: -.604124188}
+      - {x: -1.59589171, y: -.398805827}
+--- !u!212 &21200000
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  m_Sprite: {fileID: 21300000, guid: 472108e5d9c1f7c42b871df6e4316e61, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
