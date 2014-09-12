@@ -11,8 +11,8 @@ build/
 #Assets/GoogleMobileAds
 
 # no solution files for C#
-#*.sln
-#*.csproj
+*.sln
+*.csproj
 
 # ignore .DS_Store and alikes
 **/.DS_Store
