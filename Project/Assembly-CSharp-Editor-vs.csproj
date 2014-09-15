@@ -48,10 +48,8 @@
   <ItemGroup>
      <Compile Include="Assets\Editor\BaseDrawer.cs" />
      <Compile Include="Assets\Editor\ListOfBase.cs" />
-     <None Include="Assets\ProgressSmallRing.shader" />
-     <None Include="Assets\TestNormal.shader" />
-     <None Include="Assets\DisplayNormals.shader" />
-     <None Include="Assets\ProgressOuterRing.shader" />
+     <None Include="Assets\Shaders\ProgressSmallRing.shader" />
+     <None Include="Assets\Shaders\ProgressOuterRing.shader" />
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
