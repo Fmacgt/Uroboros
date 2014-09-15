@@ -93,7 +93,7 @@ GameObject:
   m_IsActive: 0
 --- !u!95 &729814709
 Animator:
-  serializedVersion: 2
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -102,8 +102,8 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 3457a64cf49700744a22429397f2fd2a, type: 2}
   m_CullingMode: 0
+  m_UpdateMode: 0
   m_ApplyRootMotion: 1
-  m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
 --- !u!212 &729814710
 SpriteRenderer:
@@ -123,9 +123,8 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
   m_SortingLayerID: 0
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ab9221995d8454a4dbcbf6cd1db4cedc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &729814711
@@ -139,6 +138,7 @@ Transform:
   m_LocalScale: {x: 1.00893605, y: 1.00893617, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!1 &811306983
 GameObject:
   m_ObjectHideFlags: 0
@@ -189,6 +189,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 2
 --- !u!1 &951045461
 GameObject:
   m_ObjectHideFlags: 0
@@ -231,3 +232,4 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 1
