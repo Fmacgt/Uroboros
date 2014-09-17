@@ -50,6 +50,7 @@
      <Compile Include="Assets\Editor\ListOfBase.cs" />
      <None Include="Assets\Shaders\ProgressSmallRing.shader" />
      <None Include="Assets\Shaders\ProgressOuterRing.shader" />
+     <None Include="Assets\Shaders\PlatformShader.shader" />
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>

@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: New Material
-  m_Shader: {fileID: 10753, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: NeonPlatformMat
+  m_Shader: {fileID: 4800000, guid: d474317da274f5c4a89516633d263949, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -23,58 +23,30 @@ Material:
     m_Floats:
       data:
         first:
-          name: PixelSnap
-        second: 0
-      data:
-        first:
-          name: _Shininess
-        second: .699999988
+          name: _Percent
+        second: .5
       data:
         first:
           name: _Emissive
-        second: 1
+        second: 4.91964293
       data:
         first:
           name: _WhiteRatio
-        second: .100000001
+        second: .132499993
       data:
         first:
           name: _Alpha
         second: 1
-      data:
-        first:
-          name: _Strength
-        second: 3
-      data:
-        first:
-          name: _Period
-        second: .5
-      data:
-        first:
-          name: _CurT
-        second: 0
     m_Colors:
       data:
         first:
           name: _Color
-        second: {r: .243137255, g: .835294127, b: 1, a: 1}
-      data:
-        first:
-          name: _Emission
-        second: {r: 0, g: 0, b: 0, a: 0}
-      data:
-        first:
-          name: _SpecColor
         second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
           name: _BaseColor
-        second: {r: .0701773986, g: .768650889, b: .867647052, a: 1}
+        second: {r: .134366632, g: .0856401324, b: .727941155, a: 1}
       data:
         first:
           name: _NeonColor
-        second: {r: .5, g: .5, b: 1, a: 1}
-      data:
-        first:
-          name: _Center
-        second: {r: 0, g: 0, b: 0, a: 0}
+        second: {r: .470588207, g: .136499256, b: .0380622894, a: 1}

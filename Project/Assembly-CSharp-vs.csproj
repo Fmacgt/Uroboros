@@ -71,6 +71,7 @@
      <Compile Include="Assets\Scripts\selection.cs" />
      <None Include="Assets\Shaders\ProgressSmallRing.shader" />
      <None Include="Assets\Shaders\ProgressOuterRing.shader" />
+     <None Include="Assets\Shaders\PlatformShader.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
