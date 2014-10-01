@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: New Material
+  m_Name: orb
   m_Shader: {fileID: 10753, guid: 0000000000000000e000000000000000, type: 0}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
@@ -27,16 +27,16 @@ Material:
         second: 0
       data:
         first:
-          name: _Shininess
-        second: .699999988
-      data:
-        first:
           name: _Emissive
         second: 1
       data:
         first:
           name: _WhiteRatio
         second: .100000001
+      data:
+        first:
+          name: _Shininess
+        second: .699999988
       data:
         first:
           name: _Alpha
@@ -60,20 +60,20 @@ Material:
         second: {r: .243137255, g: .835294127, b: 1, a: 1}
       data:
         first:
-          name: _Emission
-        second: {r: 0, g: 0, b: 0, a: 0}
-      data:
-        first:
-          name: _SpecColor
-        second: {r: 1, g: 1, b: 1, a: 1}
-      data:
-        first:
           name: _BaseColor
         second: {r: .0701773986, g: .768650889, b: .867647052, a: 1}
       data:
         first:
           name: _NeonColor
         second: {r: .5, g: .5, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Emission
+        second: {r: 0, g: 0, b: 0, a: 0}
       data:
         first:
           name: _Center

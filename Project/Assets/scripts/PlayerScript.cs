@@ -44,10 +44,13 @@ public class PlayerScript : MonoBehaviour {
 
 	//public GUIStyle enFont;
 	void OnCollisionEnter2D(Collision2D other){
-		jumpsLeft = noOfJumps;
-		foreach(Transform child in GetComponentInChildren<Transform>())
+		if(jumpsLeft == 0)
 		{
-			child.gameObject.SetActive(true);
+			jumpsLeft = noOfJumps;
+			foreach(Transform child in GetComponentInChildren<Transform>())
+			{
+				child.gameObject.SetActive(true);
+			}
 		}
 		if(hasJumped)
 		{

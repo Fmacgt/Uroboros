@@ -12,13 +12,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_scenes/s3.unity
   - enabled: 0
-    path: Assets/_scenes/menu.unity
+    path: Assets/Scenes/menu.unity
   - enabled: 0
-    path: Assets/_scenes/ControlScene.unity
+    path: Assets/Scenes/ControlScene.unity
   - enabled: 0
-    path: Assets/_scenes/menu.unity
+    path: Assets/Scenes/menu.unity
   - enabled: 0
-    path: Assets/_scenes/MasterScene.unity
+    path: Assets/Scenes/MasterScene.unity
   - enabled: 1
     path: Assets/Scenes/ControlScene.unity
   - enabled: 1
